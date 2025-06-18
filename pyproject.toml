@@ -1,0 +1,17 @@
+[project]
+name = "chronocodex"
+version = "0.1.0"
+description = "AI-powered codebase time travel and semantic changelog generator"
+authors = [{ name="Bradley R Kinnard", email="bradkinnard@proton.me" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "gitpython",
+    "openai",
+    "langchain",
+    "chromadb",
+    "faiss-cpu",
+    "spacy",
+    "gradio",
+    "rich"
+]

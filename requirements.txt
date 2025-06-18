@@ -1,0 +1,8 @@
+gitpython
+openai
+langchain
+chromadb
+faiss-cpu
+spacy
+gradio
+rich
