@@ -1,0 +1,8 @@
+openai==1.88.0
+gitpython
+faiss-cpu
+sentence-transformers
+scikit-learn
+gradio
+rich
+python-dotenv
