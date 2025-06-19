@@ -1,6 +1,6 @@
 import gradio as gr
-from core.timeline import generate_timeline, get_similar_summaries
-from core.embedder import embed_text
+from chronocodex.core.timeline import generate_timeline, get_similar_summaries
+from chronocodex.core.embedder import embed_text
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
