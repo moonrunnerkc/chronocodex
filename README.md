@@ -3,6 +3,13 @@
 Chronocodex is an open-source developer tool that integrates with Git repositories to generate a **semantic changelog** of code evolution. It summarizes developer intent for each commit, embeds those summaries as vectors, and offers both a **timeline UI** and **natural language query interface**.
 
 ---
+### Setup
+
+1. Clone the repo:
+
+git clone https://github.com/moonrunnerkc/chronocodex
+cd chronocodex
+
 
 ### 🎥 Chronocodex Demo
 

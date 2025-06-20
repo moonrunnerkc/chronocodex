@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+# diff_parser.py — Git Commit Extractor
+# Author: Bradley R Kinnard
+# License: MIT
+
+>>>>>>> 4a78c9d6 (Refactored for open-source release: portable pathing, CLI-ready, no hardcoded repo)
 from git import Repo
 from datetime import datetime
 import os
@@ -6,7 +13,10 @@ import json
 def extract_commit_diffs(repo_path, max_commits=50):
     repo = Repo(repo_path)
 
+<<<<<<< HEAD
     # Define NULL_TREE hash for first commit
+=======
+>>>>>>> 4a78c9d6 (Refactored for open-source release: portable pathing, CLI-ready, no hardcoded repo)
     null_tree_hash = repo.git.hash_object('-t', 'tree', '/dev/null')
     NULL_TREE = repo.tree(null_tree_hash)
 
@@ -14,7 +24,11 @@ def extract_commit_diffs(repo_path, max_commits=50):
     extracted = []
 
     for commit in commits:
+<<<<<<< HEAD
         print(f"Processing commit: {commit.hexsha[:7]}")  # Debug
+=======
+        print(f"Processing commit: {commit.hexsha[:7]}")
+>>>>>>> 4a78c9d6 (Refactored for open-source release: portable pathing, CLI-ready, no hardcoded repo)
 
         if commit.parents:
             parent = commit.parents[0]
@@ -43,7 +57,18 @@ def extract_commit_diffs(repo_path, max_commits=50):
         })
 
     return extracted
+<<<<<<< HEAD
 
+=======
+    
+def parse_git_diff(diff_text):
+    """
+    Extract only the unified diff from a full Git diff block.
+    """
+    lines = diff_text.splitlines()
+    relevant = [line for line in lines if line.startswith('+') or line.startswith('-') or line.startswith('@@')]
+    return "\n".join(relevant)
+>>>>>>> 4a78c9d6 (Refactored for open-source release: portable pathing, CLI-ready, no hardcoded repo)
 
 if __name__ == "__main__":
     repo_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "chronocodex"))

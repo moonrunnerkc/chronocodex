@@ -13,6 +13,15 @@ Maintains compatibility with modular embedding injection patterns.
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
+<<<<<<< HEAD
+=======
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+
+def compute_similarity(vector_a, vector_b):
+    return float(cosine_similarity([vector_a], [vector_b])[0][0])
+
+>>>>>>> 4a78c9d6 (Refactored for open-source release: portable pathing, CLI-ready, no hardcoded repo)
 
 # Load environment variables from .env file
 load_dotenv()
