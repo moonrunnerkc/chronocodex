@@ -117,12 +117,13 @@ See LICENSE for full terms.
 Chronocodex aims to bring semantic intelligence and searchability to version control — improving team collaboration, code reviews, and historical analysis.
 We welcome forks, contributions, and research collaborations.
 
+# 📡 Architecture Overview
+
 Built by developers, for developers — with transparency, intent, and history at the core.
 
-📺 GitHub Pages / Demo Setup
-Enable GitHub Pages from the docs/ folder in repository settings
+📄 GitHub Pages / Demo Setup
+Enable GitHub Pages from the `docs/` folder in repository settings
 
 Place demo video (chronocodex.mp4) in docs/demo/
 
 Link is auto-embedded in this README above
-
