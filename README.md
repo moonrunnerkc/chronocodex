@@ -133,4 +133,8 @@ Link is auto-embedded in this README above
 
 # New Line
 # Another test line
+<<<<<<< HEAD
 >>>>>>> 2789823e (Another test run)
+=======
+# Final test line
+>>>>>>> 020a8315 (Final test after fix)
