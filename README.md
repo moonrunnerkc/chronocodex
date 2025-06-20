@@ -126,4 +126,11 @@ Enable GitHub Pages from the `docs/` folder in repository settings
 
 Place demo video (chronocodex.mp4) in docs/demo/
 
+<<<<<<< HEAD
 Link is auto-embedded in this README above
+=======
+Link is auto-embedded in this README above
+
+# New Line
+# Another test line
+>>>>>>> 2789823e (Another test run)
